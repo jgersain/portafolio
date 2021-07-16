@@ -1,4 +1,16 @@
 :root {
+  --fontBase: 'Poppins', sans-serif;
+  --headline1: bold 95px/153 var(--fontbase);
+  --headline2: bold 59px/95 var(--fontbase);
+  --headline3: bold 48px/77 var(--fontbase);
+  --headline4: bold 34px/55 var(--fontbase);
+  --headline5: bold 24px/38 var(--fontbase);
+  --body1: 16px/25px var(--fontBase);
+  --body2: 14px/22px var(--fontBase);
+  --button: bold 14px/22px var(--fontBase);
+  --caption: 12px/19.42px var(--fontBase);
+  --purple: #310a90;
+  --green: #42e2b8;
   --gradient: radial-gradient(
       41.48% 11.48% at 2.38% 8.52%,
       #747de9 0%,
@@ -15,4 +27,5 @@
 body {
   background: var(--gradient);
   min-block-size: 100vh;
+  font: var(--body1);
 }
