@@ -9,6 +9,11 @@
   padding-inline-end: 24px;
   padding-block-start: 13px;
   padding-block-end: 13px;
+  cursor: pointer;
+}
+
+.button:active {
+  transform: scale(0.9);
 }
 
 .button.is-secondary {
