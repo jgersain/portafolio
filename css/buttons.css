@@ -10,6 +10,8 @@
   padding-block-start: 13px;
   padding-block-end: 13px;
   cursor: pointer;
+  text-decoration: none;
+  text-align: center;
 }
 
 .button:active {
