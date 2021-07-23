@@ -4,11 +4,11 @@
 
 :root {
   --fontBase: 'Poppins', sans-serif;
-  --headline1: bold 95px/153 var(--fontbase);
-  --headline2: bold 59px/95 var(--fontbase);
-  --headline3: bold 48px/77 var(--fontbase);
-  --headline4: bold 34px/55 var(--fontbase);
-  --headline5: bold 24px/38 var(--fontbase);
+  --headline1: bold 95px/153px var(--fontBase);
+  --headline2: bold 59px/95px var(--fontBase);
+  --headline3: bold 48px/77px var(--fontBase);
+  --headline4: bold 34px/55px var(--fontBase);
+  --headline5: bold 24px/38px var(--fontBase);
   --body1: 16px/25px var(--fontBase);
   --body2: 14px/22px var(--fontBase);
   --button: bold 14px/22px var(--fontBase);
@@ -28,4 +28,10 @@ body {
   background: var(--gradient);
   min-block-size: 100vh;
   font: var(--body1);
+  color: var(--purple);
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
 }
