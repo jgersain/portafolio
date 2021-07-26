@@ -1,0 +1,24 @@
+#projects {
+  padding-block-start: 40px;
+  padding-block-end: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.projects-welcome {
+  text-align: center;
+}
+
+.projects-welcome p {
+  size: 24px;
+}
+
+.projects-welcome h5 {
+  font: var(--headline5);
+}
+
+.projects-welcome img {
+  block-size: 80px;
+  inline-size: 80px;
+}
