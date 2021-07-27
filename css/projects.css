@@ -1,17 +1,15 @@
-#projects {
+.projects-welcome {
   padding-block-start: 40px;
   padding-block-end: 40px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
-}
-
-.projects-welcome {
+  gap: 24px;
   text-align: center;
+  align-items: center;
 }
 
 .projects-welcome p {
-  size: 24px;
+  font-size: 24px;
 }
 
 .projects-welcome h5 {
@@ -21,4 +19,16 @@
 .projects-welcome img {
   block-size: 80px;
   inline-size: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .projects-welcome {
+    padding-block-start: 200px;
+    padding-block-end: 200px;
+  }
+
+  .projects-welcome p {
+    font-size: 34px;
+    line-height: 55px;
+  }
 }
