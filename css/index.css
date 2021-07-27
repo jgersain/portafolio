@@ -17,26 +17,33 @@
   --body2: 14px/22px var(--fontBase);
   --button: bold 14px/22px var(--fontBase);
   --caption: 12px/19.42px var(--fontBase);
-  --purple: #310a90;
+  --primary: #0d324d;
+  --purple: purple;
   --green: #42e2b8;
-  --white: white;
+  --white: #e4e5e6;
+  --yellow: #ffd89b;
   --gradient: radial-gradient(
       41.48% 11.48% at 2.38% 8.52%,
       #747de9 0%,
       rgba(255, 255, 255, 0) 100%
     ),
-    linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+    linear-gradient(to top, #ffd89b 0%, #00416a 100%);
 }
 
 body {
   background: var(--gradient);
   min-block-size: 100vh;
   font: var(--body1);
-  color: var(--purple);
+  color: var(--white);
 }
 
 body,
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   margin: 0;
   padding: 0;
 }

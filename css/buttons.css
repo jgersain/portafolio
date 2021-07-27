@@ -1,6 +1,6 @@
 .button {
   color: var(--white);
-  background: var(--purple);
+  background: var(--primary);
   font: var(--button);
   border: none;
   border-radius: 4px;
