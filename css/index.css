@@ -5,6 +5,7 @@
 @import './wrapper.css';
 @import './menu.css';
 @import './projects.css';
+@import './testimony.css';
 
 :root {
   --fontBase: 'Poppins', sans-serif;
@@ -18,9 +19,10 @@
   --button: bold 14px/22px var(--fontBase);
   --caption: 12px/19.42px var(--fontBase);
   --primary: #0d324d;
-  --purple: purple;
+  --purple: #747de9;
   --green: #42e2b8;
   --white: #e4e5e6;
+  --white-transparent: rgba(255, 255, 255, 0.2);
   --yellow: #ffd89b;
   --gradient: radial-gradient(
       41.48% 11.48% at 2.38% 8.52%,
@@ -46,4 +48,34 @@ h5,
 p {
   margin: 0;
   padding: 0;
+}
+
+.gradient-text {
+  background-image: linear-gradient(
+    45deg,
+    var(--white),
+    var(--yellow),
+    var(--white)
+  );
+  background-color: var(--white);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  animation: gradient 5s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: -10rem 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
 }
