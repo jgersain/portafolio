@@ -37,5 +37,6 @@
     display: flex;
     padding-block-start: 40px;
     padding-block-end: 40px;
+    gap: 5px;
   }
 }
