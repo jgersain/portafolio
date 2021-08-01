@@ -32,7 +32,7 @@
       #747de9 0%,
       rgba(255, 255, 255, 0) 100%
     ),
-    linear-gradient(to top, #ffd89b 0%, #00416a 100%);
+    linear-gradient(to top, var(--white) 0%, #ffd89b 50%, #00416a 100%);
 }
 
 body {
