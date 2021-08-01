@@ -1,0 +1,41 @@
+.footer {
+  color: var(--primary);
+  text-align: center;
+}
+
+.footer-logo {
+  display: none;
+}
+
+.footer .social {
+  justify-content: center;
+}
+
+.footer-copyright {
+  padding-block-end: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-logo {
+    display: block;
+  }
+
+  .footer .social {
+    padding: 0;
+    order: 3;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-copyright {
+    display: flex;
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+  }
+}
