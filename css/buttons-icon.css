@@ -1,6 +1,5 @@
 .button-icon {
   padding: 10px;
-  border: 2px solid var(--yellow);
   border-radius: 4px;
   background: var(--white);
   display: inline-block;
