@@ -1,0 +1,24 @@
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: var(--primary);
+}
+
+.form-contact label {
+  display: flex;
+  flex-direction: column;
+  font: var(--button);
+}
+
+.form-contact textarea,
+.form-contact input {
+  border-radius: 8px;
+  border: 1px solid var(--gray);
+  padding-block-start: 12px;
+  padding-block-end: 12px;
+  padding-inline-start: 16px;
+  padding-inline-start: 16px;
+  font: var(--body1);
+  margin-block-start: 8px;
+}

@@ -9,6 +9,7 @@
 @import './message.css';
 @import './social.css';
 @import './footer.css';
+@import './form.css';
 
 :root {
   --fontBase: 'Poppins', sans-serif;
@@ -27,6 +28,7 @@
   --white: #e4e5e6;
   --white-transparent: rgba(255, 255, 255, 0.2);
   --yellow: #ffd89b;
+  --gray: #858c94;
   --gradient: radial-gradient(
       41.48% 11.48% at 2.38% 8.52%,
       #747de9 0%,
