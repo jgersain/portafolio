@@ -1,4 +1,4 @@
-.footer {
+.footer-content {
   color: var(--primary);
   text-align: center;
 }
@@ -16,7 +16,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
+  .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,5 +38,10 @@
     padding-block-start: 40px;
     padding-block-end: 40px;
     gap: 5px;
+  }
+
+  .footer {
+    margin-block-start: 40px;
+    margin-block-end: 40px;
   }
 }
