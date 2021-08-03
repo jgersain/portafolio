@@ -13,9 +13,11 @@
 
 .form-content p {
   text-align: center;
+  color: var(--white);
 }
 
 .form-content label {
+  color: var(--white);
   display: flex;
   flex-direction: column;
   font: var(--button);
